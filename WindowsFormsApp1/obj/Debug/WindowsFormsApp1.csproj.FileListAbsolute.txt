@@ -1,0 +1,41 @@
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DangKy.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LayLaiMatKhau.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Menu.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Mua3So.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ChonSo.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Mua4So.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Mua5So.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LichSuDatCuoc.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.QuayThuong.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThongKe.resources
+C:\Users\HP\Desktop\Học\Lập trình giao diện\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.KetQua.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DangKy.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LayLaiMatKhau.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LichSuDatCuoc.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Menu.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Mua3So.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Mua4So.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Mua5So.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.QuayThuong.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DangNhap.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LichSuTrungThuong.resources
+D:\Code Git hub\Interface-Programming\Bài tập lớn\BaiTapLon\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ThongKeKetQua.resources

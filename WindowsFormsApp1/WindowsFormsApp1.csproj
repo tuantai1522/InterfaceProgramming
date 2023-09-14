@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41A482F3-25ED-4A26-B81C-B652B34DCF96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKy.Designer.cs">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhSachGiaiThuong.cs" />
+    <Compile Include="DanhSachNguoiDung.cs" />
+    <Compile Include="DanhSachVeDatMua.cs" />
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiaiThuong.cs" />
+    <Compile Include="LichSuTrungThuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LichSuTrungThuong.Designer.cs">
+      <DependentUpon>LichSuTrungThuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayLaiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LayLaiMatKhau.Designer.cs">
+      <DependentUpon>LayLaiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LichSuDatCuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LichSuDatCuoc.Designer.cs">
+      <DependentUpon>LichSuDatCuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mua3So.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mua3So.Designer.cs">
+      <DependentUpon>Mua3So.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mua4So.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mua4So.Designer.cs">
+      <DependentUpon>Mua4So.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mua5So.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mua5So.Designer.cs">
+      <DependentUpon>Mua5So.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NguoiDung.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuayThuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuayThuong.Designer.cs">
+      <DependentUpon>QuayThuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKeKetQua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongKeKetQua.Designer.cs">
+      <DependentUpon>ThongKeKetQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ve.cs" />
+    <EmbeddedResource Include="DangKy.resx">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LichSuTrungThuong.resx">
+      <DependentUpon>LichSuTrungThuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LayLaiMatKhau.resx">
+      <DependentUpon>LayLaiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LichSuDatCuoc.resx">
+      <DependentUpon>LichSuDatCuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mua3So.resx">
+      <DependentUpon>Mua3So.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mua4So.resx">
+      <DependentUpon>Mua4So.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mua5So.resx">
+      <DependentUpon>Mua5So.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QuayThuong.resx">
+      <DependentUpon>QuayThuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongKeKetQua.resx">
+      <DependentUpon>ThongKeKetQua.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo -slogan white.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar-gd9050af3e_1920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\utilisateur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-page-option.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1055804.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1370471767-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verified.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcsnormal_93488.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telephone-call.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sign-up-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\input.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\results.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-missing-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-name-tag-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-name-tag-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-chon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-g074b3e49f_640.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
