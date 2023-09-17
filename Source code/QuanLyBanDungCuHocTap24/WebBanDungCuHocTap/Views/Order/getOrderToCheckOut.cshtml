@@ -1,0 +1,119 @@
+﻿@model IEnumerable<WebBanDungCuHocTap.Models.Cart_Detail>
+
+@{
+    ViewBag.Title = "getOrderToCheckOut";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using WebBanDungCuHocTap.Models;
+@{
+    var user = Session["User"] as WebBanDungCuHocTap.Models.Customer;
+
+    Db_WebBanDungCuHocTap da = new Db_WebBanDungCuHocTap();
+
+    var cart = da.Carts.FirstOrDefault(s => s.CustomerID == user.CustomerID);
+
+    decimal? totalPrice = 0;
+    if (cart != null)
+    {
+        totalPrice = da.Cart_Details.Where(s => s.CartID == cart.CartID).Sum(s => s.UnitPrice * s.Quantity);
+
+    }
+
+}
+<!-- Checkout Section Begin -->
+<section class="checkout spad">
+    <div class="container">
+
+        <div class="checkout__form">
+            @{
+                if (Model.Count() == 0)
+                {
+                    <h4>Không có sản phẩm nào cần mua</h4>
+                }
+                else
+                {
+                    <h4>Billing Details</h4>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6">
+                                <div class="checkout__input">
+                                    <p>Country<span>*</span></p>
+                                    <input class="country-input" type="text">
+                                </div>
+                                <div class="checkout__input">
+                                    <p>Address<span>*</span></p>
+                                    <input type="text" class="address-input" placeholder="Street Address" class="checkout__input__add">
+                                </div>
+                                <div class="checkout__input">
+                                    <p>Town/City<span>*</span></p>
+                                    <input class="city-input" type="text">
+                                </div>
+                                @{
+                                    if (user != null)
+                                    {
+                                        <div class="input-box">
+                                            <label style="display: none" for="customerID">@user.CustomerID</label>
+
+                                            <input data-val="true" style="display: none" id="customerID" name="customerID" type="text" value=@user.CustomerID>
+                                        </div>
+                                    }
+
+                                }
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="checkout__order">
+                                    <h4>Your Order</h4>
+                                    <div class="checkout__order__products">Products <span>Total</span></div>
+                                    <ul>
+                                        @{
+                                            foreach (var item in Model)
+                                            {
+                                                <li>
+                                                    @item.Product.ProductName X @item.Quantity
+                                                    <span>
+                                                        đ @{
+                                                            decimal? total = item.Product.UnitPrice * item.Quantity;
+                                                            @String.Format("{0:0.00}", total)
+                                                        }
+                                                    </span>
+
+                                                    <span style="display: none" class="input-unit-price">
+                                                        @item.UnitPrice
+                                                    </span>
+                                                </li>
+                                                if (user != null)
+                                                {
+                                                    <div class="input-box">
+                                                        <label style="display: none" for="productID">@Html.DisplayFor(modelItem => item.Product.ProductID)</label>
+                                                        <input data-val="true" style="display: none" class="input-products" name="productID" type="text" value=@Html.DisplayFor(modelItem => item.Product.ProductID)>
+                                                    </div>
+
+                                                    <div class="input-box">
+                                                        <label style="display: none" for="quantity">@Html.DisplayFor(modelItem => item.Quantity)</label>
+
+                                                        <input data-val="true" style="display: none" class="input-quantities" name="quantity" type="text" value=@Html.DisplayFor(modelItem => item.Quantity)>
+                                                    </div>
+                                                }
+                                            }
+                                        }
+                                    </ul>
+                                    <div class="checkout__order__total">Total <span>@String.Format("{0:0.00}", totalPrice)</span></div>
+                                    <button type="button" class="site-btn btn-add-to-order">PLACE ORDER</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                }
+            }
+
+
+
+        </div>
+    </div>
+</section>
+<!-- Checkout Section End -->
+
+<script src="~/Content/js/addToOrder.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

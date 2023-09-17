@@ -1,0 +1,231 @@
+﻿@model WebBanDungCuHocTap.Models.Customer
+
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Home/Signup.cshtml";
+}
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link href="~/Content/css/Notification.css" rel="stylesheet" />
+    <style>
+        /*Form đăng ký*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+        }
+
+        .wrapper {
+            position: relative;
+            max-width: 430px;
+            width: 100%;
+            background: #fff;
+            padding: 34px;
+            border-radius: 6px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .wrapper h2 {
+            position: relative;
+            font-size: 22px;
+            font-weight: 600;
+            color: #333;
+        }
+
+            .wrapper h2::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 3px;
+                width: 28px;
+                border-radius: 12px;
+                background: #dd3333;
+            }
+
+        .wrapper form {
+            margin-top: 30px;
+        }
+
+            .wrapper form .input-box {
+                height: 52px;
+            }
+
+        form .input-box input, button {
+            height: 100%;
+            width: 100%;
+            outline: none;
+            padding: 0 15px;
+            font-size: 17px;
+            font-weight: 400;
+            color: #333;
+            border: 1.5px solid #C7BEBE;
+            border-bottom-width: 2.5px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        button {
+            background: #dd3333;
+            color: #fff;
+        }
+
+        .input-box input:focus {
+            border-color: #dd3333;
+        }
+
+        form .policy {
+            display: flex;
+            align-items: center;
+        }
+
+        form h3 {
+            color: #707070;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 10px;
+        }
+
+        .input-box.button input {
+            color: #fff;
+            letter-spacing: 1px;
+            border: none;
+            background: #dd3333;
+            cursor: pointer;
+        }
+
+
+            .input-box.button input:hover, .button:hover {
+                outline: none;
+                opacity: 1;
+                color: #fff;
+                box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2);
+            }
+
+        form .text h3 {
+            color: #333;
+            width: 100%;
+            text-align: center;
+        }
+
+            form .text h3 a {
+                color: #dd3333;
+                text-decoration: none;
+            }
+
+                form .text h3 a:hover {
+                    text-decoration: underline;
+                }
+
+        .field-validation-error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul class="notifications">
+        @{ if (ViewBag.noti != null)
+            {
+                <li class="toast @ViewBag.noti[0]">
+                    <div class="column">
+                        <i class="fa-solid @ViewBag.noti[1]"></i>
+                        <span>@ViewBag.noti[2]</span>
+                    </div>
+                    <i class="fa-solid fa-xmark" onclick="removeToast(this.parentElement)"></i>
+                </li>
+
+            }
+        }
+    </ul>
+
+
+    <div class="wrapper">
+        <h2>Registration</h2>
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+        {
+            if (ViewBag.Error != null)
+            {
+                <span class="field-validation-error">@ViewBag.Error</span>
+            }
+
+            <div class="input-box">
+                @Html.TextBoxFor(temp => temp.LastName, new { placeholder = "Enter your last name", @class = "form-control" })
+                @Html.ValidationMessageFor(temp => temp.LastName, "", new { @class = "text-danger" })
+
+            </div>
+            <div class="input-box">
+                @Html.TextBoxFor(temp => temp.FirstName, new { placeholder = "Enter your first name" })
+                @Html.ValidationMessageFor(temp => temp.FirstName, "", new { @class = "text-danger" })
+            </div>
+            <div class="input-box">
+                @Html.TextBoxFor(temp => temp.UserName, new { placeholder = "Enter your username" })
+                @Html.ValidationMessageFor(temp => temp.UserName, "", new { @class = "text-danger" })
+            </div>
+            <div class="input-box">
+                @Html.PasswordFor(temp => temp.Password, new { placeholder = "Enter your password" })
+                @Html.ValidationMessageFor(temp => temp.Password, "", new { @class = "text-danger" })
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Confirm your password" id="confirmPassword" name="confirmPassword">
+                @Html.ValidationMessage("confirmPassword", "", new { @class = "text-danger" })
+            </div>
+            <div class="input-box">
+                @Html.TextBoxFor(temp => temp.City, new { placeholder = "Enter your city" })
+                @Html.ValidationMessageFor(temp => temp.City, "", new { @class = "text-danger" })
+            </div>
+            <div class="input-box">
+                @Html.TextBoxFor(temp => temp.Phone, new { placeholder = "Enter your phone" })
+                @Html.ValidationMessageFor(temp => temp.Phone, "", new { @class = "text-danger" })
+            </div>
+            <div class="input-box">
+                @Html.TextBoxFor(temp => temp.Email, new { placeholder = "Enter your email" })
+                @Html.ValidationMessageFor(temp => temp.Email, "", new { @class = "text-danger" })
+            </div>
+            <div class="policy">
+                <input type="checkbox">
+                <h3>I accept all terms & condition</h3>
+            </div>
+
+            <button class="input-box button btn-noti " type="submit">Register now</button>
+
+            <div class="text">
+                <h3>Already have an account? <a href="/Account/Login">Login now</a></h3>
+            </div>
+        }
+    </div>
+
+    <script src="~/Content/js/Notification.js"></script>
+
+</body>
+</html>
+
+
+

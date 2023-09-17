@@ -1,0 +1,44 @@
+﻿@model PagedList.IPagedList<WebBanDungCuHocTap.Models.Product>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "list Products based on Categories";
+}
+
+<!-- Hero Section Begin -->
+<section class="hero">
+    <div class="container">
+        <div class="row">
+            @Html.Partial("Slide")
+            <div class="col-lg-9 grid">
+                @foreach (var item in Model)
+                {
+                    <div class="cart">
+                        <div class="image-box">
+                            <a href="/Product/getProduct/@Html.DisplayFor(modelItem => item.ProductID)">
+                                <img class="image-wrapper" src="~/Content/img/Products/@Html.DisplayFor(modelItem => item.Picture)" />
+                            </a>
+                        </div>
+                        <div class="info-box flex flex-column align-center">
+                            <div class="title-wrapper">@Html.DisplayFor(modelItem => item.ProductName)</div>
+                            <div class="price-wrapper">đ @Html.DisplayFor(modelItem => item.UnitPrice)</div>
+                        </div>
+                    </div>
+                }
+
+                <div class="product-pagination">
+                    <!-- Thêm mã phân trang -->
+                    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+
+                    @Html.PagedListPager(Model, page => Url.Action("getCategories", "Product",
+                        new { page }))
+                    <!-- Kết thúc -->
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->

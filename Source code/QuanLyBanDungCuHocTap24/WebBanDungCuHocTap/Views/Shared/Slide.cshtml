@@ -1,0 +1,15 @@
+﻿<div class="col-lg-3">
+    <div class="hero__categories">
+        <div class="hero__categories__all">
+            <i class="fa fa-bars"></i>
+            <span>Danh mục sản phẩm</span>
+        </div>
+        <ul>
+            @foreach (var item in @ViewBag.listCategories)
+            {
+                <li><a href="@Url.Action("getCategories", "Product", new { id = item.CategoryID })"><i class="fa fa-circle"></i>@item.CategoryName</a></li>
+            }
+        </ul>
+    </div>
+</div>
+

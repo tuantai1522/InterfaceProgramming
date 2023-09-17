@@ -1,0 +1,123 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!-- Hero Section Begin -->
+<section class="hero">
+    <div class="container">
+        <div class="row">
+            @Html.Partial("Slide")
+            @Html.Partial("Search")
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
+<!-- Categories Section Begin -->
+<section class="categories">
+    <div class="container">
+        <div class="row container-title">
+            <span class="title-main">Các loại sản phẩm</span>
+            <a href="/categories/">Xem tất cả <i class="fa fa-chevron-right"></i></a>
+        </div>
+        <div class="row">
+            <div class="categories__slider owl-carousel owl-theme">
+                @foreach (var item in @ViewBag.listCategories)
+                {
+                    <a href="/Product/getCategories/@item.CategoryID">
+                        <div class="col-lg-3">
+                            <div class="categories__item ">
+                                <img src="~/Content/img/categories/@item.Picture" />
+                                <h5>@item.CategoryName</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                }
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Categories Section End -->
+<!-- Banner Begin -->
+<div class="banner">
+
+    <div class="container">
+        <div class="row img-banners">
+            <img class="img-49" src="~/Content/img/banner/banner-1.png" alt="">
+            <img class="img-49" src="~/Content/img/banner/banner-2.png" alt="">
+        </div>
+    </div>
+</div>
+<!-- Banner End -->
+<!-- List Product Section Begin -->
+<section class="list-product spad">
+    <div class="container">
+        <div class="row container-title">
+            <span class="title-main">Đồ dùng học sinh</span>
+            <a href="/Product/getCategories/1">Xem tất cả <i class="fa fa-chevron-right"></i></a>
+        </div>
+
+        <div class="row">
+            <div class="categories__slider owl-carousel owl-theme">
+                @foreach (var item in @ViewBag.listDoDungHocSinh)
+                {
+                    <a href="/Product/getProduct/@item.ProductID">
+                        <div class="col-lg-3">
+                            <div class="categories__item ">
+
+                                <img src="~/Content/img/Products/@item.Picture" />
+                                <h5>@item.ProductName</h5>
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row container-title">
+            <span class="title-main">Bìa các loại</span>
+            <a href="/Product/getCategories/2">Xem tất cả <i class="fa fa-chevron-right"></i></a>
+        </div>
+
+        <div class="row">
+            <div class="categories__slider owl-carousel owl-theme">
+                @foreach (var item in @ViewBag.listBia)
+                {
+                    <a href="/Product/getProduct/@item.ProductID">
+                        <div class="col-lg-3">
+                            <div class="categories__item ">
+                                <img src="~/Content/img/Products/@item.Picture" />
+                                <h5>@item.ProductName</h5>
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row container-title">
+            <span class="title-main">Kim bấm</span>
+            <a href="/Product/getCategories/5">Xem tất cả <i class="fa fa-chevron-right"></i></a>
+        </div>
+
+        <div class="row">
+            <div class="categories__slider owl-carousel owl-theme">
+                @foreach (var item in @ViewBag.listKimBam)
+                {
+                    <a href="/Product/getProduct/@item.ProductID">
+                        <div class="col-lg-3">
+                            <div class="categories__item ">
+                                <img src="~/Content/img/Products/@item.Picture" />
+                                <h5>@item.ProductName</h5>
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<!-- List Product Section End -->

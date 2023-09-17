@@ -1,0 +1,66 @@
+﻿@model IEnumerable<WebBanDungCuHocTap.Models.Order>
+
+@{
+    ViewBag.Title = "getOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using WebBanDungCuHocTap.Models;
+@{
+    var user = Session["User"] as WebBanDungCuHocTap.Models.Customer;
+
+    Db_WebBanDungCuHocTap da = new Db_WebBanDungCuHocTap();
+
+}
+
+<section class="order-section">
+    <div class="container container-order">
+        @foreach (var item in Model)
+        {
+            var orderDetails = da.Order_Details.Where(s => s.OrderID == item.OrderID);
+            <div class="order">
+            @{ 
+                decimal? totalPrice = 0;
+            }
+            @foreach (var itemDetail in orderDetails)
+            {
+                totalPrice += itemDetail.Quantity * itemDetail.UnitPrice;
+                <div class="order-details">
+                    <div class="info-order-container">
+                        <div>
+                            <img class="img-product-order" src="~/Content/img/Products/@itemDetail.Product.Picture" alt="">
+                            <div>
+                                <span class="name-product-order">@itemDetail.Product.ProductName</span>
+                                <span class="category-product-order">Phân loại hàng: @itemDetail.Product.Category.CategoryName</span>
+                                <div class="quantity-product">
+                                    <span>@itemDetail.Quantity</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="price-product-order">đ @String.Format("{0:0.00}", itemDetail.UnitPrice)</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+
+                <div class="total-price-order-container">
+                    <label class="label-order">Thành tiền: </label>
+                    <span class="total-price">@totalPrice</span>
+                </div>
+            </div>
+
+
+
+
+        }
+
+
+
+    </div>
+</section>
+
+

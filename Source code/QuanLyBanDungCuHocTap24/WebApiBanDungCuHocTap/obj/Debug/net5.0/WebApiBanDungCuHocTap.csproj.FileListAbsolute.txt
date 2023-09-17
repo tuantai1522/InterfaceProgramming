@@ -1,0 +1,122 @@
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\appsettings.Development.json
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\appsettings.json
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.exe
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.deps.json
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.runtimeconfig.json
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.runtimeconfig.dev.json
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\ref\WebApiBanDungCuHocTap.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.pdb
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Humanizer.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.csproj.AssemblyReference.cache
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.GeneratedMSBuildEditorConfig.editorconfig
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.AssemblyInfoInputs.cache
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.AssemblyInfo.cs
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.csproj.CoreCompileInputs.cache
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.MvcApplicationPartsAssemblyInfo.cs
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.MvcApplicationPartsAssemblyInfo.cache
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\staticwebassets\WebApiBanDungCuHocTap.StaticWebAssets.Manifest.cache
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\staticwebassets\WebApiBanDungCuHocTap.StaticWebAssets.xml
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\scopedcss\bundle\WebApiBanDungCuHocTap.styles.css
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.RazorTargetAssemblyInfo.cache
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.csproj.CopyComplete
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\ref\WebApiBanDungCuHocTap.dll
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.pdb
+D:\Học\Lập trình cơ sở dữ liệu\Source code\WebBanDungCuHocTap\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.genruntimeconfig.cache
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\appsettings.json
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.exe
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.deps.json
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.runtimeconfig.json
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.runtimeconfig.dev.json
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\ref\WebApiBanDungCuHocTap.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\WebApiBanDungCuHocTap.pdb
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Humanizer.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.AssemblyInfo.cs
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\staticwebassets\WebApiBanDungCuHocTap.StaticWebAssets.Manifest.cache
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\staticwebassets\WebApiBanDungCuHocTap.StaticWebAssets.xml
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\scopedcss\bundle\WebApiBanDungCuHocTap.styles.css
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.RazorTargetAssemblyInfo.cache
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.csproj.CopyComplete
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\ref\WebApiBanDungCuHocTap.dll
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.pdb
+C:\Users\HP\Downloads\QuanLyBanDungCuHocTap24\WebApiBanDungCuHocTap\obj\Debug\net5.0\WebApiBanDungCuHocTap.genruntimeconfig.cache

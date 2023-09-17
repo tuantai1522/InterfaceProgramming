@@ -1,0 +1,87 @@
+﻿@model WebBanDungCuHocTap.Models.Product
+
+
+@{
+    ViewBag.Title = "getProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Hero Section Begin -->
+<section class="hero">
+    @{ var user = Session["User"] as WebBanDungCuHocTap.Models.Customer;}
+
+    <div class="container">
+        <div class="row">
+            @Html.Partial("Slide")
+            <div class="col-lg-9">
+                <div class="detail">
+                    <div class="image-product">
+                        <img class="image-wrapper" src="~/Content/img/Products/@Html.DisplayFor(modelItem => modelItem.Picture)" />
+                    </div>
+                    <div class="info-product">
+                        @using (Html.BeginForm("addtoCart", "Cart", FormMethod.Post, new { id = "form_buy_now" }))
+                        {
+                            <nav class="nav-wrapper">
+                                <a href="/Home/Index">Trang chủ</a>
+                                <a href="/Product/getCategories/@Html.DisplayFor(modelItem => modelItem.Picture)">@Html.DisplayFor(modelItem => modelItem.Category.CategoryName)</a>
+                            </nav>
+                            <h1 class="title-wrapper">@Html.DisplayFor(modelItem => modelItem.ProductName)</h1>
+
+                            /*Truyền dữ liệu qua Controller*/
+
+
+                            if (user != null)
+                            {
+                                <div class="input-box">
+                                    <label style="display: none" for="productID">@Html.DisplayFor(modelItem => modelItem.ProductID)</label>
+                                    <input data-val="true" style="display: none" id="productID" name="productID" type="text" value=@Html.DisplayFor(modelItem => modelItem.ProductID)>
+                                </div>
+
+                                <div class="input-box">
+                                    <label style="display: none" for="customerID">@user.CustomerID</label>
+
+                                    <input data-val="true" style="display: none" id="customerID" name="customerID" type="text" value=@user.CustomerID>
+                                </div>
+                            }
+
+
+
+
+                            <div class="product-short-description">
+                                <p>Chuyên cung cấp các văn phòng phẩm tại thành phố Hồ Chí Minh</p>
+                                <p>♦ Giao hàng toàn quốc thu COD</p>
+                                <p>♦ FREE SHIP đơn hàng từ 1 triệu khu vực TPHCM.</p>
+                                <p>♦ Giao hàng nhanh- Đổi trả hàng trong 1 tuần.</p>
+                                <p>♦ Hàng thương hiệu chất lượng- hóa đơn chứng từ đầy đủ</p>
+                            </div>
+
+                            <div class="container-add-product">
+                                <div class="quantity buttons_added">
+                                    <input type="button" value="-" class="form-button button-minus">
+
+                                    <div class="input-box">
+                                        <input data-val="true" class="form-button quantity-text" id="quantity" name="quantity" type="number" value=1 min="1">
+                                    </div>
+                                    <input type="button" value="+" class="form-button button-plus">
+                                </div>
+
+
+                                @if (user != null)
+                                {
+                                    <button data-id="@Html.DisplayFor(modelItem => modelItem.ProductID)" type="button" name="add-to-cart" class="add_to_cart_button site-btn">Thêm vào giỏ</button>
+                                }
+                            </div>
+
+                        }
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="~/Content/js/detail-product.js"></script>
+<script src="~/Content/js/addToCart.js"></script>
